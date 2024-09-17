@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Sobremesas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio de Sobremesas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="gallery">
+            <!-- Repetindo os cards para incluir 9 pratos -->
+            <div class="card">
+                <img src="imgchoclote.png" alt="Imagem de mousse de chocolate com morango">
+                <button onclick="expandImage('img1.png')">Ver Imagem maior</button>
+                <button onclick="playDescription(' mousse de chocolate com morango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="imgmorango.webp" alt="Imagem de doce de morango">
+                <button onclick="expandImage('img2.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Doce de morango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="imgmousse.jpg" alt="Imagem de mousse de maracuja">
+                <button onclick="expandImage('img3.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Mousse de maracuja')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="pudim-de-leite-receita.webp" alt="Imagem de pudim de leite condensado">
+                <button onclick="expandImage('img4.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Pudim de leite condensado')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="Bombom-de-Uva-na-Travessa-780x517.webp" alt=" Imagem de bombom de uva ">
+                <button onclick="expandImage('img5.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Bombom de uva deliciosa')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="Bolo Kit Kat Brigadeiro Morango.webp" alt="Imagem de Bolo de kit kat com morango">
+                <button onclick="expandImage('img6.png')">Ver Imagem maior</button>
+                <button onclick="playDescription(' Bolo de kit kat com morango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="açai.jpeg" alt="Imagem de um açai">
+                <button onclick="expandImage('img7.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Açai com morando')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="churros.jpg" alt="Imagem de um churros de doce de leite">
+                <button onclick="expandImage('img8.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Churros de doce de leite')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="tortalimão.jpg" alt="Imagem de torta de limão">
+                <button onclick="expandImage('img9.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Torta de limão')">Ouvir Descrição</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por ANA JULIA SANTOS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
